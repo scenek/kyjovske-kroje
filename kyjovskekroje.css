@@ -1,0 +1,186 @@
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body, td, th {
+  font-size: 10pt;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*font-family: tahoma, verdana, sans-serif;*/
+}
+
+a {
+  color: #a80009;
+}
+
+#container {
+  width: 780px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-top: 0;
+}
+
+#header {
+  background: white url(/images/header.jpg) no-repeat left top;
+  border-bottom: 2px solid black;
+  height: 200px;
+}
+
+#menu {
+  background: #a80009 url(/images/menu-bg2.gif) repeat-x left top;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+} 
+
+#menu a {
+  color: white;
+  font-size: 10pt;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  /*border-right: 1px solid white;*/
+  height: 30px;
+  margin: 0 1px;
+}
+
+#menu a:hover, #menu a.selected {
+  text-decoration: none;
+  background-color: #a80009; /* url(aimages/menu-hl-bg.gif) repeat-x left top;*/
+  border: 1px solid white;
+  border-bottom: 0px;
+  border-top: 0;
+  margin: 0;
+}
+
+#menu2 {
+  background-color: #a80009;
+  line-height: 20px;
+  color: white;
+}
+
+#menu2 div.deactive {
+  display: none;
+}
+
+#menu2 span.hide { font-weight: bold; margin-left: 10px; }
+
+#menu2 a {
+  color: white;
+  padding: 0 20px;
+  text-decoration: none; 
+}
+
+#menu2 a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  padding: 5px 10px;
+}
+
+#main h1, h2, h3, h4 {
+  color: #a80009;
+  clear: both;
+}
+
+#main h1 {
+  border-bottom: 1px solid #a80009;
+}
+
+#main h2 {
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#main table {
+	margin: 0 auto;
+}
+
+#main table.ukazka {
+	border: 0px;
+	padding: 2px;
+}
+
+#main table.ukazka a, #main table.ukazka img {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main table.ukazka td {
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 100px;
+	height: 75px;
+}
+
+#main table.pujcovne {
+  border-collapse: collapse; 
+}
+
+#main table.pujcovne td {
+  text-align: center;
+}
+
+#main table.pujcovne th {
+  padding: 2px 10px;
+}
+
+#main table.pujcovne td, th {
+  padding: 2px 5px;
+  border: 1px solid #a80009;
+}
+
+#main table.provoznidoba {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+
+#main table.provoznidoba td {
+  padding-left: 10px;
+}
+
+#main hr {
+  border: 0px;
+  border-top: 1px solid #a80009;
+}
+
+#main #showimg img {
+  border: 0;
+  margin: 2px 3px;
+}
+
+#main #presentation { text-align: center; }
+
+#main .smallkroj { float: right; }
+
+#main .smallkroj img {
+  float: left;
+  margin-right: 10px;
+}
+
+#footer {
+  background: #a80009 url(/images/menu-hl-bg.gif) repeat-x left bottom;
+  height: 30px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+#footer a, #footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
