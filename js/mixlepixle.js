@@ -19,11 +19,13 @@ var mixlepixle = {
         p[i].style.display = 'none';
       }
     }
+/* menu is not used any more
     p = document.getElementById('menu').childNodes;
     for (var i=0; i<p.length; i++) {
       p[i].onmouseover = mixlepixle.activate;
       p[i].onclick = mixlepixle.setSekce;
     }
+*/
     p = document.getElementById('menu2');
     p.style.height = '20px';
     mixlepixle.deactivate();
@@ -32,32 +34,36 @@ var mixlepixle = {
   activate : function () {
     mixlepixle.deactivate();
     this.className = 'selected';
-    if (this.id != '') {   
+    if (this.id != '') {
       var p = document.getElementById('menu2-'+this.id);
       p.className = '';
     }
   },
-	
+
   deactivate : function () {
+/* menu is not used any more
     var p = document.getElementById('menu').childNodes;
     for (var i=0; i<p.length; i++) {
       p[i].className = '';
     }
-    p = document.getElementById('menu2').childNodes;
+*/
+    var p = document.getElementById('menu2').childNodes;
     for (var i=0; i<p.length; i++) {
       if (p[i].tagName == 'DIV') {
         p[i].className = 'deactive';
       }
-    }    
+    }
   },
-  
+
   setSekce : function (sekce) {
-/*    if (sekce != null) {
+/*
+    if (sekce != null) {
       document.getElementById(sekce).className = 'selected';
       document.getElementById('menu2-'+sekce).className = '';
-    }*/
+    }
+*/
   },
-  
+
   show : function() {
     var img = document.getElementById('presentation').childNodes;
     for (var i=0; i < img.length; i++) {
@@ -66,7 +72,7 @@ var mixlepixle = {
         document.getElementById('showimg').scrollIntoView(true);
         return false;
       }
-    }  
+    }
   }
 }
 

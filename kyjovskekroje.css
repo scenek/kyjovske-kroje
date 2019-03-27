@@ -23,13 +23,13 @@ a {
 }
 
 #header {
-  background: white url(/images/header.jpg) no-repeat left top;
+  background: white url(images/header.jpg) no-repeat left top;
   border-bottom: 2px solid black;
   height: 200px;
 }
 
 #menu {
-  background: #a80009 url(/images/menu-bg2.gif) repeat-x left top;
+  background: #a80009 url(images/menu-bg2.gif) repeat-x left top;
   width: 100%;
   height: 30px;
   line-height: 30px;
@@ -168,7 +168,7 @@ a {
 }
 
 #footer {
-  background: #a80009 url(/images/menu-hl-bg.gif) repeat-x left bottom;
+  background: #a80009 url(images/menu-hl-bg.gif) repeat-x left bottom;
   height: 30px;
   color: white;
   text-align: center;
