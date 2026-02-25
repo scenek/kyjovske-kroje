@@ -1,3 +1,6 @@
+title: kyjovskekroje.cz
+baseurl: ""
+encoding: utf-8
 defaults:
   -
     scope:
